@@ -1,0 +1,81 @@
+/*main idex*/
+.text-sobrenosotros{
+  text-align: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+.text-noticias{
+  color: white;
+  font-family:  'Roboto', sans-serif;
+  font-size: 0.9em;
+}
+
+/*main discografia*/
+.contenedor_disc{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+  .contenedor_disc{
+    iframe{
+        border: 3px solid white;
+        margin: 20px; 
+    }
+  }
+  /*main galeria*/
+  .green{
+  background-color:#6fb936;
+}
+        .thumb{
+            margin-bottom: 30px;
+        }
+        
+        .page-top{
+            margin-top:40px;
+        }
+
+   
+img.zoom {
+    width: 100%;
+    height: 200px;
+    border-radius:5px;
+    object-fit:cover;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+}
+        
+ 
+.transition {
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+    .modal-header {
+   
+     border-bottom: none;
+}
+    .modal-title {
+        color:#000;
+    }
+    .modal-footer{
+      display:none;  
+    }
+
+/*contacto*/
+.form-group{
+  margin-bottom: 1rem;
+}
+
+.contacto_text-color{
+  color: white;
+  margin-bottom: 0.3em;
+}
+.text_tipografia{
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
+}

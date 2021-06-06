@@ -1,0 +1,30 @@
+ $colorfooter:#212121;
+
+*{margin: 0;
+padding: 0;}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import "_nav";
+@import "_footer";
+@import "_body";
+@import "404";
+
+h3{
+	color: orange;
+	text-transform: uppercase;
+	font-size: 1.7em;
+    font-family:  'Oswald', sans-serif;
+    text-align: center;
+}
+h4{
+	color: white;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-family:  'Oswald', sans-serif;
+}
+
+h2{
+	color: white;
+	font-size: 2.4em;
+}
