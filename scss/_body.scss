@@ -1,4 +1,4 @@
-/*main idex*/
+/*main index*/
 .text-sobrenosotros{
   text-align: center;
   color: white;
@@ -64,6 +64,13 @@ img.zoom {
     .modal-footer{
       display:none;  
     }
+ /*galeria videos*/
+ .container{
+    iframe{ 
+        border-radius: 1em;
+        padding-bottom: 0.5em;
+    }
+ } 
 
 /*contacto*/
 .form-group{
