@@ -131,6 +131,26 @@ img.zoom {
   font-size: 1.5em;
   font-family: 'Roboto', sans-serif; }
 
+/*tienda*/
+.tipografia_card {
+  color: black;
+  font-size: 1em;
+  font-family: 'Oswald', sans-serif;
+  text-transform: capitalize;
+  text-align: center; }
+
+.precio_card {
+  color: #1b522f;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.3em; }
+
+.titulos_tienda {
+  text-align: center;
+  margin-top: 1.7em;
+  margin-bottom: 0.7em;
+  text-decoration: underline; }
+
 .bgimg {
   background-image: url(../404pag/homero2.png); }
 
